@@ -3644,6 +3644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Power: 500
+  Vector: {x: 0, y: 0, z: 1}
 --- !u!1 &806547570 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07d87b26e318a5f4da1f908bbb4e1c16, type: 3}
