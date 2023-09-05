@@ -4,11 +4,13 @@ public class AddForce : MonoBehaviour
 {
     private Rigidbody ball;
 
-    [SerializeField] int Power;
-    [SerializeField] Vector3 Vector;
+    [SerializeField] int Power;         // сила, приложенная к объекту
+    [SerializeField] Vector3 Vector;    // вектор направления силы
     void Start()
     {
         ball = GetComponent<Rigidbody>();
+
+        // сила прикладывается в начале игры
         AddImpulse();
     }
 
